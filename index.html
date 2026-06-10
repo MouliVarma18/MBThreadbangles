@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>M&B Thread Bangles | Handmade Accessories Brand</title>
+  <meta name="description" content="Handmade thread bangles, hair bands, rubber bands, jadabilallu, and invisible chains by M&B Thread Bangles. Personally customized to match your outfits.">
+  <link rel="stylesheet" href="index.css">
+  
+  <!-- Font Awesome or direct SVGs will be used for clean icons -->
+</head>
+<body>
+
+  <!-- FIXED FLOATING WHATSAPP BUTTON -->
+  <a href="https://wa.me/919999999999?text=Hi%20M%26B%20Thread%20Bangles!%20I%27d%20like%20to%20ask%20about%20custom%20designs." 
+     class="floating-whatsapp" 
+     target="_blank" 
+     rel="noopener noreferrer" 
+     aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24">
+      <path d="M12.012 2c-5.506 0-9.988 4.482-9.988 9.988 0 1.76.459 3.475 1.332 4.992L2 22l5.176-1.358c1.47.8 3.123 1.22 4.82 1.22 5.506 0 9.988-4.482 9.988-9.988C22 6.482 17.518 2 12.012 2zm6.208 14.154c-.255.72-1.484 1.34-2.036 1.4-1.127.123-2.614-.294-4.526-1.077-3.124-1.28-5.122-4.444-5.28-4.654-.156-.21-1.272-1.696-1.272-3.238 0-1.542.805-2.302 1.09-2.607.283-.306.623-.383.832-.383.21 0 .422.002.605.01.187.008.44-.07.69.537.255.62.87 2.126.945 2.277.075.15.127.327.027.525-.1.2-.15.324-.3.498-.15.174-.316.388-.45.52-.15.15-.31.314-.13.623.18.31.8 1.312 1.72 2.132.843.75 1.554.98 1.896 1.122.34.143.543.12.747-.11.205-.23.876-1.018 1.112-1.37.235-.353.472-.293.797-.174.327.12 2.074.98 2.433 1.16.36.18.6.27.688.42.09.15.09.87-.165 1.59z"/>
+    </svg>
+  </a>
+
+  <!-- NAVIGATION BAR -->
+  <header id="main-header">
+    <div class="container">
+      <div class="logo">M&B<span>Thread Bangles</span></div>
+      
+      <nav id="nav-menu">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#categories">Categories</a></li>
+          <li><a href="#featured-creations">Featured</a></li>
+          <li><a href="#instagram-gallery">Instagram</a></li>
+          <li><a href="#collections">Collections</a></li>
+          <li><a href="#match-outfit">Custom Orders</a></li>
+          <li><a href="#crafting">Our Process</a></li>
+          <li><a href="#how-to-order">How to Order</a></li>
+        </ul>
+      </nav>
+      
+      <div class="nav-actions">
+        <a href="https://wa.me/919999999999?text=Hi%20M%26B%20Thread%20Bangles!%20I%27d%20like%20to%20get%20a%20custom%20design." 
+           class="gold-border-btn" 
+           target="_blank" 
+           rel="noopener noreferrer">
+          Get Custom Design
+        </a>
+        <div class="menu-toggle" id="mobile-menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- SECTION 1: HERO EXPERIENCE -->
+  <section id="hero" class="hero" style="background-image: url('assets/hero_bangle_1.png');">
+    <!-- Floating Thread Canvas -->
+    <canvas id="thread-canvas"></canvas>
+    
+    <div class="hero-content">
+      <span class="hero-badge">100% Handcrafted Accessories</span>
+      <h1>
+        <span>M&B Thread Bangles</span>
+        Handmade Accessories Brand
+      </h1>
+      <p>Beautifully hand-wrapped silk thread accessories, customized to match your sarees and outfits.</p>
+      <div class="hero-categories-list">
+        <span>Handmade Thread Bangles</span>
+        <span class="divider">&bull;</span>
+        <span>Hair Bands</span>
+        <span class="divider">&bull;</span>
+        <span>Rubber Bands</span>
+        <span class="divider">&bull;</span>
+        <span>Jadabilallu</span>
+        <span class="divider">&bull;</span>
+        <span>Invisible Chains</span>
+        <span class="divider">&bull;</span>
+        <span>Custom Accessories</span>
+      </div>
+      
+      <div class="hero-ctas">
+        <a href="https://wa.me/919999999999?text=Hi!%20I%20saw%20your%20website%20and%20want%20to%20order%20matching%20accessories." 
+           class="primary-btn" 
+           target="_blank" 
+           rel="noopener noreferrer">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="vertical-align: middle;">
+            <path d="M12.012 2c-5.506 0-9.988 4.482-9.988 9.988 0 1.76.459 3.475 1.332 4.992L2 22l5.176-1.358c1.47.8 3.123 1.22 4.82 1.22 5.506 0 9.988-4.482 9.988-9.988C22 6.482 17.518 2 12.012 2zm6.208 14.154c-.255.72-1.484 1.34-2.036 1.4-1.127.123-2.614-.294-4.526-1.077-3.124-1.28-5.122-4.444-5.28-4.654-.156-.21-1.272-1.696-1.272-3.238 0-1.542.805-2.302 1.09-2.607.283-.306.623-.383.832-.383.21 0 .422.002.605.01.187.008.44-.07.69.537.255.62.87 2.126.945 2.277.075.15.127.327.027.525-.1.2-.15.324-.3.498-.15.174-.316.388-.45.52-.15.15-.31.314-.13.623.18.31.8 1.312 1.72 2.132.843.75 1.554.98 1.896 1.122.34.143.543.12.747-.11.205-.23.876-1.018 1.112-1.37.235-.353.472-.293.797-.174.327.12 2.074.98 2.433 1.16.36.18.6.27.688.42.09.15.09.87-.165 1.59z"/>
+          </svg>
+          Order on WhatsApp
+        </a>
+        <a href="#match-outfit" class="secondary-btn">Ask for Matching Set</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 2: PRODUCT CATEGORIES -->
+
+  <!-- SECTION 2: PRODUCT CATEGORIES -->
+  <section id="categories" class="product-categories reveal">
+    <div class="container">
+      <div class="section-header">
+        <p>Explore Our Handmade Range</p>
+        <h2>Product Categories</h2>
+      </div>
+      
+      <div class="categories-grid-6">
+        <!-- Card 1: Handmade Thread Bangles -->
+        <div class="category-card">
+          <div class="category-img-wrapper">
+            <img src="assets/hero_bangle_1.png" alt="Handmade Thread Bangles">
+            <div class="category-badge">Bangles</div>
+          </div>
+          <div class="category-info">
+            <h3>Handmade Thread Bangles</h3>
+            <p>Saree-matched silk thread bangles wrapped by hand and decorated with Kundan stones, mirrors, and pearl borders.</p>
+            <a href="https://wa.me/919999999999?text=Hi%20M%26B%20Thread%20Bangles!%20I%27d%20like%20to%20get%20a%20custom%20design%20for%20Handmade%20Thread%20Bangles." class="cta-link-btn" target="_blank" rel="noopener noreferrer">Get Custom Design</a>
+          </div>
+        </div>
+
+        <!-- Card 2: Hair Bands -->
+        <div class="category-card">
+          <div class="category-img-wrapper">
+            <img src="assets/hair_accessories.png" alt="Designer Hair Bands">
+            <div class="category-badge">Hairwear</div>
+          </div>
+          <div class="category-info">
+            <h3>Hair Bands</h3>
+            <p>Elegant silk thread-wrapped hair bands customized with matching stones and designs to coordinate with your outfits.</p>
+            <a href="https://wa.me/919999999999?text=Hi%20M%26B%20Thread%20Bangles!%20I%27d%20like%20to%20ask%20about%20prices%20for%20Hair%20Bands." class="cta-link-btn" target="_blank" rel="noopener noreferrer">Ask for Price</a>
+          </div>
+        </div>
+
+        <!-- Card 3: Rubber Bands -->
+        <div class="category-card">
+          <div class="category-img-wrapper">
+            <img src="assets/hair_rubber_bands.png" alt="Custom Rubber Bands">
+            <div class="category-badge">Hairwear</div>
+          </div>
+          <div class="category-info">
+            <h3>Rubber Bands</h3>
+            <p>Custom silk thread-wrapped rubber bands decorated with Kundan stones and beads. Durable elastic for all hair types.</p>
+            <a href="https://wa.me/919999999999?text=Hi%20M%26B%20Thread%20Bangles!%20I%27d%20like%20to%20order%20Rubber%20Bands." class="cta-link-btn" target="_blank" rel="noopener noreferrer">Order on WhatsApp</a>
+          </div>
+        </div>
+
+        <!-- Card 4: Jadabilallu -->
+        <div class="category-card">
+          <div class="category-img-wrapper">
+            <img src="assets/jadabilallu.png" alt="Traditional Jadabilallu">
+            <div class="category-badge">Hairwear</div>
+          </div>
+          <div class="category-info">
+            <h3>Jadabilallu</h3>
+            <p>Traditional hair braid ornaments studded with stones and pearls, designed to complete bridal and festive hairstyles.</p>
+            <a href="https://wa.me/919999999999?text=Hi%20M%26B%20Thread%20Bangles!%20I%27d%20like%20to%20ask%20about%20prices%20for%20Jadabilallu." class="cta-link-btn" target="_blank" rel="noopener noreferrer">Ask for Price</a>
+          </div>
+        </div>
+
+        <!-- Card 5: Invisible Chains -->
+        <div class="category-card">
+          <div class="category-img-wrapper">
+            <img src="assets/invisible_chains.png" alt="Delicate Invisible Chains">
+            <div class="category-badge">Neckwear</div>
+          </div>
+          <div class="category-info">
+            <h3>Invisible Chains</h3>
+            <p>Minimalist invisible strand necklaces featuring a sparkling single stone pendant. Sits beautifully on the collarbone.</p>
+            <a href="https://wa.me/919999999999?text=Hi%20M%26B%20Thread%20Bangles!%20I%27d%20like%20to%20order%20Invisible%20Chains." class="cta-link-btn" target="_blank" rel="noopener noreferrer">Order on WhatsApp</a>
+          </div>
+        </div>
+
+        <!-- Card 6: Custom Orders -->
+        <div class="category-card">
+          <div class="category-img-wrapper">
+            <img src="assets/custom_name_bangles.png" alt="Custom Name Bangles">
+            <div class="category-badge">Bespoke</div>
+          </div>
+          <div class="category-info">
+            <h3>Custom Orders</h3>
+            <p>Personalized matching sets, name-studded bangles, and family collections tailored to your outfit photos.</p>
+            <a href="https://wa.me/919999999999?text=Hi%20M%26B%20Thread%20Bangles!%20I%27d%20like%20to%20get%20a%20custom%20design%20for%20my%20outfit." class="cta-link-btn" target="_blank" rel="noopener noreferrer">Get Custom Design</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 3: FEATURED CREATIONS -->
+  <section id="featured-creations" class="featured-creations reveal">
+    <div class="container">
+      <div class="section-header">
+        <p>Our Handmade Favorites</p>
+        <h2>Featured Creations</h2>
+      </div>
+      
+      <div class="featured-showcase-grid">
+        <!-- Feature 1: Bangles -->
+        <div class="featured-item">
+          <div class="featured-img-box">
+            <video src="assets/bridal_collection.png" autoplay loop muted playsinline style="width: 100%; height: auto; display: block; object-fit: contain;"></video>
+          </div>
+          <div class="featured-detail-box">
+            <span class="featured-tag">Bridal & Festive Sets</span>
+            <h3>Custom Silk Thread Bangles</h3>
+            <p>Individually wrapped thread bangles designed to match the exact shade and border details of your saree or lehenga. Embellished with premium Kundan stones, gold beads, and delicate hanging jhumkas.</p>
+            <div class="featured-ctas">
+              <a href="https://wa.me/919999999999?text=Hi%20M%26B%20Thread%20Bangles!%20I%27d%20like%20to%20get%20a%20custom%20design%20for%20Silk%20Thread%20Bangles." class="primary-btn" target="_blank" rel="noopener noreferrer">Get Custom Design</a>
+              <a href="https://wa.me/919999999999?text=Hi%20M%26B%20Thread%20Bangles!%20I%27d%20like%20to%20ask%20for%20prices%20on%20Bridal%20Bangle%20sets." class="gold-border-btn" target="_blank" rel="noopener noreferrer">Ask for Price</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Feature 2: Hairwear -->
+        <div class="featured-item reversed">
+          <div class="featured-img-box">
+            <img src="assets/hair_accessories.png" alt="Handmade Hair accessories">
+          </div>
+          <div class="featured-detail-box">
+            <span class="featured-tag">Hairwear Accessories</span>
+            <h3>Handcrafted Hair Bands & Rubber Bands</h3>
+            <p>Made for daily style and festive charm. These matching hair accessories are wrapped with fine silk thread and decorated with stone frames. A comfortable, damage-free choice for hair styling that coordinates with your outfit.</p>
+            <div class="featured-ctas">
+              <a href="https://wa.me/919999999999?text=Hi%20M%26B%20Thread%20Bangles!%20I%27d%20like%20to%20order%20Hair%20Bands%20and%20Rubber%20Bands." class="primary-btn" target="_blank" rel="noopener noreferrer">Order on WhatsApp</a>
+              <a href="https://wa.me/919999999999?text=Hi%20M%26B%20Thread%20Bangles!%20I%27d%20like%20to%20ask%20about%20prices%20for%20Hairwear%20Accessories." class="gold-border-btn" target="_blank" rel="noopener noreferrer">Ask for Price</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Feature 3: Jadabilallu & Chains -->
+        <div class="featured-item">
+          <div class="featured-img-box">
+            <img src="assets/jadabilallu.png" alt="Jadabilallu & Necklaces">
+          </div>
+          <div class="featured-detail-box">
+            <span class="featured-tag">Traditional & Dainty Designs</span>
+            <h3>Jadabilallu & Invisible Chains</h3>
+            <p>Complete your traditional South Indian bridal hairstyle with our matching Jadabilallu, or add a minimal sparkle to your neck with our single-stone invisible strand chains. Handcrafted to coordinate with the bangle sets.</p>
+            <div class="featured-ctas">
+              <a href="https://wa.me/919999999999?text=Hi%20M%26B%20Thread%20Bangles!%20I%27m%20interested%20in%20Jadabilallu%20and%20Invisible%20Chains." class="primary-btn" target="_blank" rel="noopener noreferrer">Get Custom Design</a>
+              <a href="https://wa.me/919999999999?text=Hi%20M%26B%20Thread%20Bangles!%20I%27d%20like%20to%20ask%20about%20prices%20for%20Jadabilallu%20and%20Invisible%20Chains." class="gold-border-btn" target="_blank" rel="noopener noreferrer">Ask for Price</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 4: THE LOOKBOOK GALLERY -->
+  <section id="instagram-gallery" class="seen-on-instagram reveal">
+    <div class="container">
+      <div class="section-header">
+        <p>Curated Handmade Lookbook</p>
+        <h2>Our Creations Gallery</h2>
+      </div>
+
+      <!-- LOOKBOOK FILTER TABS -->
+      <div class="lookbook-tabs">
+        <button class="tab-btn active" data-filter="all">All Creations</button>
+        <button class="tab-btn" data-filter="bangles">Thread Bangles</button>
+        <button class="tab-btn" data-filter="hair-bands">Hair Bands</button>
+        <button class="tab-btn" data-filter="rubber-bands">Rubber Bands & Clips</button>
+        <button class="tab-btn" data-filter="jadabilallu">Jadabilallu</button>
+        <button class="tab-btn" data-filter="invisible-chains">Invisible Chains</button>
+      </div>
+      
+      <div class="lookbook-grid" id="lookbook-grid">
+        <!-- Card 1: Bridal Collection (Large - span 6) -->
+        <div class="lookbook-card span-6" data-category="bangles" data-src="assets/bridal_collection.png" data-caption="Grand bridal silk thread bangle set in pink and gold with detailed Kundan stones and pearl borders.">
+          <div class="lookbook-img-wrapper">
+            <video src="assets/bridal_collection.png" autoplay loop muted playsinline></video>
+          </div>
+          <div class="lookbook-meta">
+            <span class="lookbook-category">Thread Bangles &bull; Bridal</span>
+            <h3 class="lookbook-title">Royal Bridal Silk Bangle Set</h3>
+          </div>
+        </div>
+        
+        <!-- Card 2: Bespoke Red/Gold (Large - span 6) -->
+        <div class="lookbook-card span-6" data-category="bangles" data-src="assets/hero_bangle_1.png" data-caption="Classic silk thread bangles wrapped in festive red with premium Kundan stone studding and elegant gold highlights.">
+          <div class="lookbook-img-wrapper">
+            <img src="assets/hero_bangle_1.png" alt="Bespoke Red & Gold Bangle Set">
+          </div>
+          <div class="lookbook-meta">
+            <span class="lookbook-category">Thread Bangles &bull; Custom</span>
+            <h3 class="lookbook-title">Bespoke Red & Gold Set</h3>
+          </div>
+        </div>
+        
+        <!-- Card 3: Velvet Festive (Medium - span 4) -->
+        <div class="lookbook-card span-4" data-category="bangles" data-src="assets/insta_photo_4.png" data-caption="Special edition handcrafted velvet silk bangle set in deep maroon, royal purple, and emerald green with mirror accents.">
+          <div class="lookbook-img-wrapper">
+            <img src="assets/insta_photo_4.png" alt="Velvet Festive Bangles">
+          </div>
+          <div class="lookbook-meta">
+            <span class="lookbook-category">Thread Bangles &bull; Festival</span>
+            <h3 class="lookbook-title">Velvet Festive Bangles</h3>
+          </div>
+        </div>
+        
+        <!-- Card 4: Kids Mini Pastel (Medium - span 4) -->
+        <div class="lookbook-card span-4" data-category="bangles" data-src="assets/insta_photo_5.png" data-caption="Lightweight and skin-friendly mini silk bangles for children in soft pastel and bright festive shades.">
+          <div class="lookbook-img-wrapper">
+            <img src="assets/insta_photo_5.png" alt="Kids Mini Pastel Bangles">
+          </div>
+          <div class="lookbook-meta">
+            <span class="lookbook-category">Thread Bangles &bull; Kids</span>
+            <h3 class="lookbook-title">Kids Mini Pastel Bangles</h3>
+          </div>
+        </div>
+        
+        <!-- Card 5: Blush Pink/Gold (Medium - span 4) -->
+        <div class="lookbook-card span-4" data-category="bangles" data-src="assets/hero_bangle_2.png" data-caption="Soft blush pink silk thread bangles with gold spacing rings and delicate bead borders.">
+          <div class="lookbook-img-wrapper">
+            <img src="assets/hero_bangle_2.png" alt="Blush Pink & Gold Set">
+          </div>
+          <div class="lookbook-meta">
+            <span class="lookbook-category">Thread Bangles &bull; Custom</span>
+            <h3 class="lookbook-title">Blush Pink & Gold Set</h3>
+          </div>
+        </div>
+        
+        <!-- Card 6: Designer Green Hairband (Medium - span 4) -->
+        <div class="lookbook-card span-4" data-category="hair-bands" data-src="assets/hair_accessories.png" data-caption="Fine silk thread-wrapped designer hair band studded with stone work, matching our signature bangles.">
+          <div class="lookbook-img-wrapper">
+            <img src="assets/hair_accessories.png" alt="Designer Green Hair Band">
+          </div>
+          <div class="lookbook-meta">
+            <span class="lookbook-category">Hair Bands</span>
+            <h3 class="lookbook-title">Designer Green Hair Band</h3>
+          </div>
+        </div>
+        
+        <!-- Card 7: Traditional Jadabilallu (Medium - span 4) -->
+        <div class="lookbook-card span-4" data-category="jadabilallu" data-src="assets/jadabilallu.png" data-caption="Classic hair braid ornaments studded with red, green, and white stones for traditional hairstyles.">
+          <div class="lookbook-img-wrapper">
+            <img src="assets/jadabilallu.png" alt="Traditional Jadabilallu">
+          </div>
+          <div class="lookbook-meta">
+            <span class="lookbook-category">Jadabilallu &bull; Traditional</span>
+            <h3 class="lookbook-title">Traditional Braid Jadabilallu</h3>
+          </div>
+        </div>
+        
+        <!-- Card 8: Custom Name Bangle Set (Medium - span 4) -->
+        <div class="lookbook-card span-4" data-category="bangles" data-src="assets/custom_name_bangles.png" data-caption="Personalized silk thread bangles with custom names or initials crafted in fine stone work.">
+          <div class="lookbook-img-wrapper">
+            <img src="assets/custom_name_bangles.png" alt="Custom Name Bangle Set">
+          </div>
+          <div class="lookbook-meta">
+            <span class="lookbook-category">Thread Bangles &bull; Bespoke</span>
+            <h3 class="lookbook-title">Custom Name Bangle Set</h3>
+          </div>
+        </div>
+        
+        <!-- Card 9: Pastel Silk Hair Bands (Medium - span 4) -->
+        <div class="lookbook-card span-4" data-category="hair-bands" data-src="assets/insta_photo_7.png" data-caption="Elegant hand-wrapped hair bands decorated with delicate pearl borders and matching stone frames.">
+          <div class="lookbook-img-wrapper">
+            <video src="assets/insta_photo_7.png" autoplay loop muted playsinline></video>
+          </div>
+          <div class="lookbook-meta">
+            <span class="lookbook-category">Hair Bands &bull; Custom</span>
+            <h3 class="lookbook-title">Pastel Silk Hair Bands</h3>
+          </div>
+        </div>
+        
+        <!-- Card 10: Grand Kundan Jadabilallu Set (Medium - span 4) -->
+        <div class="lookbook-card span-4" data-category="jadabilallu" data-src="assets/insta_photo_9.png" data-caption="Traditional South Indian hair accessories decorated with elaborate Kundan layout and pearls.">
+          <div class="lookbook-img-wrapper">
+            <video src="assets/insta_photo_9.png" autoplay loop muted playsinline></video>
+          </div>
+          <div class="lookbook-meta">
+            <span class="lookbook-category">Jadabilallu &bull; Bridal</span>
+            <h3 class="lookbook-title">Grand Kundan Jadabilallu</h3>
+          </div>
+        </div>
+        
+        <!-- Card 11: Haldi-Mehendi Set (Medium - span 4) -->
+        <div class="lookbook-card span-4" data-category="bangles" data-src="assets/mehendi_collection.png" data-caption="Custom coordinated thread bangles in yellow and green designed for pre-wedding haldi and mehendi ceremonies.">
+          <div class="lookbook-img-wrapper">
+            <img src="assets/mehendi_collection.png" alt="Haldi-Mehendi Yellow-Green Set">
+          </div>
+          <div class="lookbook-meta">
+            <span class="lookbook-category">Thread Bangles &bull; Custom</span>
+            <h3 class="lookbook-title">Haldi-Mehendi Festive Set</h3>
+          </div>
+        </div>
+        
+        <!-- Card 12: Kundan Silk Rubber Bands (Small - span 3) -->
+        <div class="lookbook-card span-3" data-category="rubber-bands" data-src="assets/hair_rubber_bands.png" data-caption="Handcrafted silk thread-wrapped rubber bands decorated with Kundan stones and beads.">
+          <div class="lookbook-img-wrapper">
+            <img src="assets/hair_rubber_bands.png" alt="Kundan Silk Rubber Bands">
+          </div>
+          <div class="lookbook-meta">
+            <span class="lookbook-category">Rubber Bands</span>
+            <h3 class="lookbook-title">Kundan Silk Rubber Bands</h3>
+          </div>
+        </div>
+        
+        <!-- Card 13: Kundan Silk Hair Clips (Small - span 3) -->
+        <div class="lookbook-card span-3" data-category="rubber-bands" data-src="assets/hair_clips.png" data-caption="Premium matching hair clips wrapped with silk thread and embellished with stone work.">
+          <div class="lookbook-img-wrapper">
+            <img src="assets/hair_clips.png" alt="Kundan Silk Hair Clips">
+          </div>
+          <div class="lookbook-meta">
+            <span class="lookbook-category">Hair Clips</span>
+            <h3 class="lookbook-title">Kundan Silk Hair Clips</h3>
+          </div>
+        </div>
+        
+        <!-- Card 14: Dainty Single-Stone Chain (Small - span 3) -->
+        <div class="lookbook-card span-3" data-category="invisible-chains" data-src="assets/invisible_chains.png" data-caption="Minimalist invisible strand necklace featuring a sparkling single crystal pendant sitting elegantly on the collarbone.">
+          <div class="lookbook-img-wrapper">
+            <img src="assets/invisible_chains.png" alt="Dainty Single-Stone Chain">
+          </div>
+          <div class="lookbook-meta">
+            <span class="lookbook-category">Invisible Chains</span>
+            <h3 class="lookbook-title">Dainty Single-Stone Chain</h3>
+          </div>
+        </div>
+        
+        <!-- Card 15: Crystal Invisible Necklaces (Small - span 3) -->
+        <div class="lookbook-card span-3" data-category="invisible-chains" data-src="assets/insta_photo_8.png" data-caption="Elegant invisible string necklaces with fine stone drop pendants.">
+          <div class="lookbook-img-wrapper">
+            <video src="assets/insta_photo_8.png" autoplay loop muted playsinline></video>
+          </div>
+          <div class="lookbook-meta">
+            <span class="lookbook-category">Invisible Chains</span>
+            <h3 class="lookbook-title">Crystal Invisible Necklaces</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CUSTOM LIGHTBOX MODAL -->
+  <div class="lightbox" id="gallery-lightbox">
+    <div class="lightbox-content">
+      <span class="lightbox-close" id="lightbox-close">&times;</span>
+      <span class="lightbox-nav lightbox-prev" id="lightbox-prev">&#10094;</span>
+      <img id="lightbox-img" src="" alt="" style="display: block;">
+      <video id="lightbox-video" src="" autoplay loop muted playsinline controls style="display: none; max-width: 100%; max-height: 80vh; margin: 0 auto; border-radius: 8px;"></video>
+      <span class="lightbox-nav lightbox-next" id="lightbox-next">&#10095;</span>
+      <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
+  </div>
+
+  <!-- SECTION 5: OUR COLLECTIONS -->
+  <section id="collections" class="collections reveal">
+    <div class="container">
+      <div class="section-header">
+        <p>Handmade Collections</p>
+        <h2>Our Collections</h2>
+      </div>
+      
+      <div class="collections-grid">
+        <!-- Card 1: Bridal Bangle Sets -->
+        <div class="collection-card">
+          <div class="collection-img-wrapper">
+            <video src="assets/bridal_collection.png" autoplay loop muted playsinline></video>
+          </div>
+          <div class="collection-info">
+            <div>
+              <h3>Bridal Bangle Sets</h3>
+              <p>Heavy silk thread bangles embellished with Kundan stones, pearls, and custom hanging jhumkas designed for brides.</p>
+            </div>
+            <a href="https://wa.me/919999999999?text=Hi%20M%26B%20Thread%20Bangles!%20I%27d%20like%20to%20get%20a%20custom%20design%20for%20a%20Grand%20Bridal%20Bangle%20Set." 
+               class="gold-border-btn" 
+               target="_blank" 
+               rel="noopener noreferrer">Get Custom Design</a>
+          </div>
+        </div>
+        
+        <!-- Card 2: Festival Bangles -->
+        <div class="collection-card">
+          <div class="collection-img-wrapper">
+            <img src="assets/insta_photo_4.png" alt="Festival Bangles">
+          </div>
+          <div class="collection-info">
+            <div>
+              <h3>Festival Bangles</h3>
+              <p>Traditional designs featuring deep maroon, royal purple, and emerald green thread sets with mirror work for Diwali and Navratri.</p>
+            </div>
+            <a href="https://wa.me/919999999999?text=Hi%20M%26B%20Thread%20Bangles!%20I%27d%20like%20to%20ask%20about%20prices%20for%20Festival%20bangle%20sets." 
+               class="gold-border-btn" 
+               target="_blank" 
+               rel="noopener noreferrer">Ask for Price</a>
+          </div>
+        </div>
+        
+        <!-- Card 3: Kids Mini Sets -->
+        <div class="collection-card">
+          <div class="collection-img-wrapper">
+            <img src="assets/insta_photo_5.png" alt="Kids Mini Sets">
+          </div>
+          <div class="collection-info">
+            <div>
+              <h3>Kids Mini Sets</h3>
+              <p>Lightweight, soft, and skin-friendly mini silk bangles wrapped in bright festive shades and pastels.</p>
+            </div>
+            <a href="https://wa.me/919999999999?text=Hi%20M%26B%20Thread%20Bangles!%20I%27d%20like%20to%20order%20Kids%20Collection%20sets." 
+               class="gold-border-btn" 
+               target="_blank" 
+               rel="noopener noreferrer">Order on WhatsApp</a>
+          </div>
+        </div>
+        
+        <!-- Card 4: Designer Hair Bands -->
+        <div class="collection-card">
+          <div class="collection-img-wrapper">
+            <img src="assets/hair_accessories.png" alt="Designer Hair Bands">
+          </div>
+          <div class="collection-info">
+            <div>
+              <h3>Designer Hair Bands</h3>
+              <p>Elegant silk thread-wrapped hair bands customized with stones and decorative pearl borders to coordinate with your outfit.</p>
+            </div>
+            <a href="https://wa.me/919999999999?text=Hi%20M%26B%20Thread%20Bangles!%20I%27d%20like%20to%20ask%20about%20prices%20for%20Designer%20Hair%20Bands." 
+               class="gold-border-btn" 
+               target="_blank" 
+               rel="noopener noreferrer">Ask for Price</a>
+          </div>
+        </div>
+        
+        <!-- Card 5: Traditional Jadabilallu -->
+        <div class="collection-card">
+          <div class="collection-img-wrapper">
+            <img src="assets/jadabilallu.png" alt="Traditional Jadabilallu">
+          </div>
+          <div class="collection-info">
+            <div>
+              <h3>Traditional Jadabilallu</h3>
+              <p>Traditional hair braid ornaments studded with stones and pearls, designed to complete bridal and festive hairstyles.</p>
+            </div>
+            <a href="https://wa.me/919999999999?text=Hi%20M%26B%20Thread%20Bangles!%20I%27d%20like%20to%20get%20a%20custom%20design%20for%20Jadabilallu." 
+               class="gold-border-btn" 
+               target="_blank" 
+               rel="noopener noreferrer">Get Custom Design</a>
+          </div>
+        </div>
+ 
+        <!-- Card 6: Dainty Invisible Chains -->
+        <div class="collection-card">
+          <div class="collection-img-wrapper">
+            <img src="assets/invisible_chains.png" alt="Dainty Invisible Chains">
+          </div>
+          <div class="collection-info">
+            <div>
+              <h3>Dainty Invisible Chains</h3>
+              <p>Minimalist invisible strand necklaces featuring a sparkling single stone pendant. Sits beautifully on the collarbone.</p>
+            </div>
+            <a href="https://wa.me/919999999999?text=Hi%20M%26B%20Thread%20Bangles!%20I%27d%20like%20to%20ask%20about%20prices%20for%20Invisible%20Chains." 
+               class="gold-border-btn" 
+               target="_blank" 
+               rel="noopener noreferrer">Ask for Price</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 6: CUSTOM ORDERS -->
+  <section id="match-outfit" class="match-my-outfit reveal">
+    <div class="container">
+      <div class="section-header">
+        <p>Match with Your Outfit</p>
+        <h2>Match My Outfit</h2>
+      </div>
+      
+      <div class="match-grid">
+        <!-- Column 1: Interactive Uploader -->
+        <div>
+          <!-- Uploader Area -->
+          <div class="match-uploader" id="outfit-uploader-box">
+            <svg class="upload-icon" viewBox="0 0 24 24">
+              <path d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM14 13v4h-4v-4H7l5-5 5 5h-3z"/>
+            </svg>
+            <h3>Drag or Upload Outfit Photo</h3>
+            <p>Upload a photo of your Saree, Lehenga, or Dress to auto-generate recommended bangle threads</p>
+            <button class="gold-border-btn" style="background: var(--ivory); pointer-events: none;">Select Outfit</button>
+            <input type="file" id="outfit-file-input" accept="image/*" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0; cursor: pointer;">
+            
+            <!-- Live Preview -->
+            <div class="preview-container" id="outfit-preview-container">
+              <button class="reset-upload" id="btn-reset-outfit">Reset</button>
+              <img src="" id="outfit-preview-img" alt="Outfit Preview">
+            </div>
+          </div>
+          
+          <!-- Optional Presets for Quick Testing -->
+          <div style="margin-top: 20px; display: flex; align-items: center; gap: 10px; justify-content: center; flex-wrap: wrap;">
+            <span style="font-size: 0.85rem; color: var(--text-muted); font-weight: 500;">Or try preset outfits:</span>
+            <button class="preset-btn" data-preset="red-silk" style="background: #A32638; width: 30px; height: 30px; border-radius: 50%; border: 2px solid white; cursor: pointer; box-shadow: 0 2px 5px rgba(0,0,0,0.1);"></button>
+            <button class="preset-btn" data-preset="emerald-green" style="background: #004B49; width: 30px; height: 30px; border-radius: 50%; border: 2px solid white; cursor: pointer; box-shadow: 0 2px 5px rgba(0,0,0,0.1);"></button>
+            <button class="preset-btn" data-preset="mustard-yellow" style="background: #E5A93C; width: 30px; height: 30px; border-radius: 50%; border: 2px solid white; cursor: pointer; box-shadow: 0 2px 5px rgba(0,0,0,0.1);"></button>
+            <button class="preset-btn" data-preset="blush-pink" style="background: #F0B2B8; width: 30px; height: 30px; border-radius: 50%; border: 2px solid white; cursor: pointer; box-shadow: 0 2px 5px rgba(0,0,0,0.1);"></button>
+          </div>
+        </div>
+        
+        <!-- Column 2: Matching Result panel -->
+        <div class="match-results-panel">
+          <div>
+            <div class="form-group">
+              <label for="match-occasion">Select Occasion</label>
+              <select id="match-occasion">
+                <option value="wedding-bride">Bridal / Wedding Day</option>
+                <option value="mehendi-haldi">Mehendi & Haldi</option>
+                <option value="festival-puja" selected>Festive Celebrations</option>
+                <option value="casual-matching">Casual Party wear</option>
+              </select>
+            </div>
+            
+            <!-- Color Palette extractor container -->
+            <div class="color-palette-extractor" id="color-extractor-area">
+              <h4>Extracted Outfit Colors</h4>
+              <div class="palette-swatches" id="outfit-swatches">
+                <!-- Swatches loaded via JS -->
+              </div>
+            </div>
+            
+            <!-- Recommendations Section -->
+            <div class="matching-recommendations" id="matching-recs-area">
+              <h4 class="recommendations-title">Recommended Combinations</h4>
+              <div id="matching-recs-container">
+                <!-- Dynamic cards loaded via JS -->
+              </div>
+            </div>
+          </div>
+          
+          <button class="primary-btn" id="btn-share-matching" style="width: 100%; margin-top: 30px; justify-content: center;">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12.012 2c-5.506 0-9.988 4.482-9.988 9.988 0 1.76.459 3.475 1.332 4.992L2 22l5.176-1.358c1.47.8 3.123 1.22 4.82 1.22 5.506 0 9.988-4.482 9.988-9.988C22 6.482 17.518 2 12.012 2zm6.208 14.154c-.255.72-1.484 1.34-2.036 1.4-1.127.123-2.614-.294-4.526-1.077-3.124-1.28-5.122-4.444-5.28-4.654-.156-.21-1.272-1.696-1.272-3.238 0-1.542.805-2.302 1.09-2.607.283-.306.623-.383.832-.383.21 0 .422.002.605.01.187.008.44-.07.69.537.255.62.87 2.126.945 2.277.075.15.127.327.027.525-.1.2-.15.324-.3.498-.15.174-.316.388-.45.52-.15.15-.31.314-.13.623.18.31.8 1.312 1.72 2.132.843.75 1.554.98 1.896 1.122.34.143.543.12.747-.11.205-.23.876-1.018 1.112-1.37.235-.353.472-.293.797-.174.327.12 2.074.98 2.433 1.16.36.18.6.27.688.42.09.15.09.87-.165 1.59z"/>
+            </svg>
+            Send Outfit Photo
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 5: BUILD YOUR OWN BANGLE -->
+  <section id="customizer" class="customization-studio reveal">
+    <div class="container">
+      <div class="section-header">
+        <p>Design Customization</p>
+        <h2>Build Your Own Bangle</h2>
+      </div>
+      
+      <div class="studio-grid">
+        <!-- Canvas Live Preview -->
+        <div class="studio-preview-box">
+          <canvas id="bangle-canvas" width="600" height="600"></canvas>
+          <div class="preview-labels">
+            <h4 class="preview-title" id="custom-preview-title">Bespoke Thread Bangle</h4>
+            <p class="preview-desc" id="custom-preview-desc">Red Silk Thread &bull; Kundan Stones &bull; Pearl Borders</p>
+          </div>
+        </div>
+        
+        <!-- Customizer Studio Controls -->
+        <div class="studio-controls">
+          <h3>Customizer Studio</h3>
+          
+          <!-- Control: Thread color -->
+          <div class="control-section">
+            <div class="control-title">
+              Base Thread Color <span id="label-thread-color">Deep Maroon</span>
+            </div>
+            <div class="color-picker-grid" id="thread-colors-picker">
+              <div class="color-option active" style="background-color: #4A0E17;" data-color="#4A0E17" data-name="Deep Maroon"><span class="tooltip">Deep Maroon</span></div>
+              <div class="color-option" style="background-color: #D4AF37;" data-color="#D4AF37" data-name="Rich Gold"><span class="tooltip">Rich Gold</span></div>
+              <div class="color-option" style="background-color: #E8C5C8;" data-color="#E8C5C8" data-name="Blush Pink"><span class="tooltip">Blush Pink</span></div>
+              <div class="color-option" style="background-color: #4B244A;" data-color="#4B244A" data-name="Royal Purple"><span class="tooltip">Royal Purple</span></div>
+              <div class="color-option" style="background-color: #004B49;" data-color="#004B49" data-name="Emerald Green"><span class="tooltip">Emerald Green</span></div>
+              <div class="color-option" style="background-color: #002D62;" data-color="#002D62" data-name="Royal Blue"><span class="tooltip">Royal Blue</span></div>
+              <div class="color-option" style="background-color: #FDFBF7;" data-color="#FDFBF7" data-name="Ivory Silk"><span class="tooltip">Ivory Silk</span></div>
+              <div class="color-option" style="background-color: #FF6F61;" data-color="#FF6F61" data-name="Coral Pink"><span class="tooltip">Coral Pink</span></div>
+            </div>
+          </div>
+          
+          <!-- Control: Stone color / Style -->
+          <div class="control-section">
+            <div class="control-title">
+              Embellishment Style <span id="label-stone-style">All-over Kundan</span>
+            </div>
+            <div class="style-select-grid" id="stone-styles-picker">
+              <div class="style-option active" data-style="kundan">Kundan Stones</div>
+              <div class="style-option" data-style="mirror">Mirror Work</div>
+              <div class="style-option" data-style="pearl-only">Classic Beads</div>
+            </div>
+          </div>
+          
+          <!-- Control: Decorative Elements (Pearl borders) -->
+          <div class="control-section">
+            <div class="control-title">
+              Pearl Borders <span id="label-pearl-toggle">Active</span>
+            </div>
+            <div class="style-select-grid" id="pearl-toggle-picker">
+              <div class="style-option active" data-pearl="yes">Add Pearls</div>
+              <div class="style-option" data-pearl="no">No Pearls</div>
+            </div>
+          </div>
+          
+          <!-- Control: Size -->
+          <div class="control-section">
+            <div class="control-title">
+              Bangle Size <span id="label-bangle-size">2.6</span>
+            </div>
+            <div class="bangle-size-selector" id="bangle-size-picker">
+              <div class="size-option" data-size="2.2">2.2</div>
+              <div class="size-option" data-size="2.4">2.4</div>
+              <div class="size-option active" data-size="2.6">2.6</div>
+              <div class="size-option" data-size="2.8">2.8</div>
+              <div class="size-option" data-size="Custom">C</div>
+            </div>
+          </div>
+          
+          <!-- Control: Name Customization -->
+          <div class="control-section">
+            <div class="control-title">
+              Custom Name Studding <span>(Optional)</span>
+            </div>
+            <input type="text" class="input-name-field" id="customizer-name-input" placeholder="e.g. Rahul & Aishwarya" maxlength="25">
+          </div>
+          
+          <!-- Submit WhatsApp design -->
+          <button class="primary-btn whatsapp-submit-btn" id="btn-submit-design">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12.012 2c-5.506 0-9.988 4.482-9.988 9.988 0 1.76.459 3.475 1.332 4.992L2 22l5.176-1.358c1.47.8 3.123 1.22 4.82 1.22 5.506 0 9.988-4.482 9.988-9.988C22 6.482 17.518 2 12.012 2zm6.208 14.154c-.255.72-1.484 1.34-2.036 1.4-1.127.123-2.614-.294-4.526-1.077-3.124-1.28-5.122-4.444-5.28-4.654-.156-.21-1.272-1.696-1.272-3.238 0-1.542.805-2.302 1.09-2.607.283-.306.623-.383.832-.383.21 0 .422.002.605.01.187.008.44-.07.69.537.255.62.87 2.126.945 2.277.075.15.127.327.027.525-.1.2-.15.324-.3.498-.15.174-.316.388-.45.52-.15.15-.31.314-.13.623.18.31.8 1.312 1.72 2.132.843.75 1.554.98 1.896 1.122.34.143.543.12.747-.11.205-.23.876-1.018 1.112-1.37.235-.353.472-.293.797-.174.327.12 2.074.98 2.433 1.16.36.18.6.27.688.42.09.15.09.87-.165 1.59z"/>
+            </svg>
+            Get Custom Design
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 7: THE ART OF HANDCRAFTING -->
+  <section id="crafting" class="art-of-handcrafting reveal">
+    <div class="container">
+      <div class="section-header">
+        <p>Our Creative Process</p>
+        <h2>Crafted With Care</h2>
+      </div>
+      
+      <div class="crafting-grid">
+        <!-- Left: Image -->
+        <div class="crafting-image">
+          <img src="assets/artisan_crafting.png" alt="Artisan handcrafting thread bangles">
+        </div>
+        
+        <!-- Right: Steps -->
+        <div class="crafting-steps">
+          <!-- Step 1 -->
+          <div class="step-card">
+            <div class="step-number">01</div>
+            <div class="step-info">
+              <h4>Thread Selection & Wrapping</h4>
+              <p>We select premium high-luster silk threads, wrapping them carefully around the bangle base to create a seamless, soft finish.</p>
+            </div>
+          </div>
+          
+          <!-- Step 2 -->
+          <div class="step-card">
+            <div class="step-number">02</div>
+            <div class="step-info">
+              <h4>Embellishment Layout</h4>
+              <p>Each design is charted by hand. Kundan gemstones, mirrors, or pearls are symmetrically positioned to create unique patterns.</p>
+            </div>
+          </div>
+          
+          <!-- Step 3 -->
+          <div class="step-card">
+            <div class="step-number">03</div>
+            <div class="step-info">
+              <h4>Precision Handwork & Curing</h4>
+              <p>Stones are set using specialized adhesive, followed by natural curing to ensure durability and wear resistance for special occasions.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 7B: BESPOKE EXCELLENCE -->
+  <section id="why-choose-us" class="why-love-us reveal">
+    <div class="container">
+      <div class="section-header">
+        <p>Handcrafted Excellence</p>
+        <h2>Why Customers Love Us</h2>
+      </div>
+      
+      <div class="benefits-grid">
+        <!-- Benefit 1 -->
+        <div class="benefit-card">
+          <div class="benefit-icon-wrapper">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 17h-2v-2h2v2zm2.07-7.75l-.9.92C13.45 12.9 13 13.5 13 15h-2v-.5c0-1.1.45-2.1 1.17-2.83l1.24-1.26c.37-.36.59-.86.59-1.41 0-1.1-.9-2-2-2s-2 .9-2 2H7c0-2.76 2.24-5 5-5s5 2.24 5 5c0 1.04-.42 1.99-1.07 2.75z"/>
+            </svg>
+          </div>
+          <h3>100% Handcrafted</h3>
+          <p>No machinery is involved. Every single thread loop and crystal is placed by hand with care, dedication, and attention to detail.</p>
+        </div>
+        
+        <!-- Benefit 2 -->
+        <div class="benefit-card">
+          <div class="benefit-icon-wrapper">
+            <svg viewBox="0 0 24 24">
+              <path d="M12 3c-4.97 0-9 4.03-9 9 0 2.12.74 4.07 1.97 5.61L4.35 19.4c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0l1.9-1.9C9.17 19.58 10.53 20 12 20c4.97 0 9-4.03 9-9s-4.03-9-9-9zm0 15c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z"/>
+            </svg>
+          </div>
+          <h3>Outfit Matching Expertise</h3>
+          <p>We customize every design to match your saree fabric, wedding themes, lehenga embroidery, and custom colors perfectly.</p>
+        </div>
+        
+        <!-- Benefit 3 -->
+        <div class="benefit-card">
+          <div class="benefit-icon-wrapper">
+            <svg viewBox="0 0 24 24">
+              <path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zM6 9h12v2H6V9zm8 5H6v-2h8v2zm4-6H6V6h12v2z"/>
+            </svg>
+          </div>
+          <h3>Easy WhatsApp Ordering</h3>
+          <p>Zero checkout stress. Chat directly with the creators, share outfit pictures, customize sizes, and finalize details on WhatsApp.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 8: HOW TO ORDER -->
+  <section id="how-to-order" class="how-to-order reveal">
+    <div class="container">
+      <div class="section-header">
+        <p>Simple Step-by-Step Customization</p>
+        <h2>How to Order</h2>
+      </div>
+      
+      <div class="order-steps-grid">
+        <!-- Step 1 -->
+        <div class="order-step-card">
+          <div class="step-num">01</div>
+          <h3>Share Outfit Photo</h3>
+          <p>Send a photo of your saree, lehenga, or dress in natural light. Highlight the border and primary colors you want to coordinate.</p>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="order-step-card">
+          <div class="step-num">02</div>
+          <h3>Customize Details</h3>
+          <p>Confirm your bangle sizing (e.g., 2.4, 2.6) and discuss custom elements like name-studding, stones, pearls, or matching hair accessories.</p>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="order-step-card">
+          <div class="step-num">03</div>
+          <h3>Artisan Handcrafting</h3>
+          <p>We wrap each thread base and set Kundan stones, mirrors, or pearls symmetrically. The design is cured naturally to ensure high durability.</p>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="order-step-card">
+          <div class="step-num">04</div>
+          <h3>Secure Delivery</h3>
+          <p>Your matching accessories are securely packaged and delivered to your doorstep, ready to complete your festive or bridal look.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 9: WHATSAPP ORDERING CTA -->
+  <section class="whatsapp-ordering-cta reveal">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Let's Create Something Beautiful Together</h2>
+        <p>Send a photo of your outfit and we'll craft the perfect matching design.</p>
+        <a href="https://wa.me/919999999999?text=Hi%20M%26B%20Thread%20Bangles!%20I%27d%20like%20to%20send%20my%20outfit%20details%20for%20a%20custom%20matching%20design." 
+           class="whatsapp-large-btn" 
+           target="_blank" 
+           rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24">
+            <path d="M12.012 2c-5.506 0-9.988 4.482-9.988 9.988 0 1.76.459 3.475 1.332 4.992L2 22l5.176-1.358c1.47.8 3.123 1.22 4.82 1.22 5.506 0 9.988-4.482 9.988-9.988C22 6.482 17.518 2 12.012 2zm6.208 14.154c-.255.72-1.484 1.34-2.036 1.4-1.127.123-2.614-.294-4.526-1.077-3.124-1.28-5.122-4.444-5.28-4.654-.156-.21-1.272-1.696-1.272-3.238 0-1.542.805-2.302 1.09-2.607.283-.306.623-.383.832-.383.21 0 .422.002.605.01.187.008.44-.07.69.537.255.62.87 2.126.945 2.277.075.15.127.327.027.525-.1.2-.15.324-.3.498-.15.174-.316.388-.45.52-.15.15-.31.314-.13.623.18.31.8 1.312 1.72 2.132.843.75 1.554.98 1.896 1.122.34.143.543.12.747-.11.205-.23.876-1.018 1.112-1.37.235-.353.472-.293.797-.174.327.12 2.074.98 2.433 1.16.36.18.6.27.688.42.09.15.09.87-.165 1.59z"/>
+          </svg>
+          Order on WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1: Brand Info -->
+        <div class="footer-col footer-about">
+          <div class="logo">M&B<span style="letter-spacing: 2px;">Thread Bangles</span></div>
+          <p>Handcrafting thread bangles, rubber bands, hair bands, jadabilallu, and invisible chains matched to your festive sarees and lehengas.</p>
+          <div class="footer-socials">
+            <a href="https://www.instagram.com/m_b_threadbangles_" target="_blank" class="social-link" aria-label="Instagram">
+              <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+            </a>
+            <a href="https://wa.me/919999999999" target="_blank" class="social-link" aria-label="WhatsApp">
+              <svg viewBox="0 0 24 24"><path d="M12.012 2c-5.506 0-9.988 4.482-9.988 9.988 0 1.76.459 3.475 1.332 4.992L2 22l5.176-1.358c1.47.8 3.123 1.22 4.82 1.22 5.506 0 9.988-4.482 9.988-9.988C22 6.482 17.518 2 12.012 2zm6.208 14.154c-.255.72-1.484 1.34-2.036 1.4-1.127.123-2.614-.294-4.526-1.077-3.124-1.28-5.122-4.444-5.28-4.654-.156-.21-1.272-1.696-1.272-3.238 0-1.542.805-2.302 1.09-2.607.283-.306.623-.383.832-.383.21 0 .422.002.605.01.187.008.44-.07.69.537.255.62.87 2.126.945 2.277.075.15.127.327.027.525-.1.2-.15.324-.3.498-.15.174-.316.388-.45.52-.15.15-.31.314-.13.623.18.31.8 1.312 1.72 2.132.843.75 1.554.98 1.896 1.122.34.143.543.12.747-.11.205-.23.876-1.018 1.112-1.37.235-.353.472-.293.797-.174.327.12 2.074.98 2.433 1.16.36.18.6.27.688.42.09.15.09.87-.165 1.59z"/></svg>
+            </a>
+          </div>
+        </div>
+        
+        <!-- Col 2: Quick Links -->
+        <div class="footer-col footer-links">
+          <h4>Our Range</h4>
+          <ul>
+            <li><a href="#categories">Thread Bangles</a></li>
+            <li><a href="#categories">Rubber Bands</a></li>
+            <li><a href="#categories">Hair Bands</a></li>
+            <li><a href="#categories">Jadabilallu</a></li>
+            <li><a href="#categories">Invisible Chains</a></li>
+          </ul>
+        </div>
+        
+        <!-- Col 3: Navigation -->
+        <div class="footer-col footer-links">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#instagram-gallery">Instagram Showcase</a></li>
+            <li><a href="#match-outfit">Outfit Matching</a></li>
+            <li><a href="#customizer">Build Your Bangle</a></li>
+            <li><a href="#crafting">Our Process</a></li>
+          </ul>
+        </div>
+        
+        <!-- Col 4: Insta Feed -->
+        <div class="footer-col">
+          <h4>Gallery Feed</h4>
+          <div class="footer-insta-grid">
+            <div class="footer-insta-item"><img src="assets/insta_photo_1.png" alt="Insta Bangle Feed"></div>
+            <div class="footer-insta-item"><img src="assets/insta_photo_2.png" alt="Insta Bangle Feed"></div>
+            <div class="footer-insta-item"><img src="assets/insta_photo_3.png" alt="Insta Bangle Feed"></div>
+            <div class="footer-insta-item"><img src="assets/insta_photo_4.png" alt="Insta Bangle Feed"></div>
+            <div class="footer-insta-item"><img src="assets/insta_photo_5.png" alt="Insta Bangle Feed"></div>
+            <div class="footer-insta-item"><img src="assets/insta_photo_6.png" alt="Insta Bangle Feed"></div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Footer bottom -->
+      <div class="footer-bottom">
+        <p>&copy; 2026 M&B Thread Bangles. Handcrafted with &hearts;. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
+
+
+
