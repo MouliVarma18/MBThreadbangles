@@ -336,7 +336,7 @@ function initOutfitMatcher() {
     }
     msg += ` Let's discuss details and customization on WhatsApp.`;
     
-    const url = `https://wa.me/919999999999?text=${encodeURIComponent(msg)}`;
+    const url = `https://wa.me/917569483440?text=${encodeURIComponent(msg)}`;
     window.open(url, '_blank');
   });
 }
@@ -685,7 +685,7 @@ function initBangleCustomizer() {
 
     message += `\nCan you please share pricing and order processing time for this design? Thank you!`;
     
-    const url = `https://wa.me/919999999999?text=${encodeURIComponent(message)}`;
+    const url = `https://wa.me/917569483440?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
   });
 }
